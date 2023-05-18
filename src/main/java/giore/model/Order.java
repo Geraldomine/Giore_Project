@@ -27,6 +27,10 @@ public class Order {
         this.shippingAddress = shippingAddress;
     }
 
+    public Order(int id, String s) {
+
+    }
+
 
     public int getId() {
         return id;

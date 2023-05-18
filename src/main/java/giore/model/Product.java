@@ -15,7 +15,12 @@ public class Product {
         this.image = image;
     }
 
-    // getters y setters
+    public Product(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+
     public int getId() {
         return id;
     }

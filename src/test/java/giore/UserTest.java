@@ -20,7 +20,7 @@ public class UserTest {
         cart.add(new Product(2, "Product 2"));
 
 
-        User user = new User(1, "Geraldien", "Domine", "gdomine@hotmail.com.ar", "ger1213", true, orders, cart);
+        User user = new User(1, "Geraldine", "Domine", "gdomine@hotmail.com.ar", "ger1213", true, orders, cart);
 
 
         System.out.println("User Details:");

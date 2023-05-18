@@ -27,5 +27,8 @@ public class CartService {
     }
 
     public Cart getCartById(Long cartId) {
+        Cart cart = null;
+        return cartRepository.save(null);
     }
+
 }

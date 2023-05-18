@@ -1,10 +1,11 @@
-package giore.controllers;
+package giore.model.controllers;
 
 import giore.model.Cart;
 import giore.model.Product;
 import giore.services.CartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+//import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/carts")
